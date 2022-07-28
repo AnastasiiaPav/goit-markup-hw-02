@@ -1,0 +1,64 @@
+ul {
+    list-style: none;
+}
+
+body{
+    background: #F5F5F5;
+    color: #757575;
+}
+ 
+.logo{
+    color: #000000;
+}
+
+.logo-blue {
+    color: #2196F3;
+}
+
+ .site-nav .link{
+    color: #212121;
+ }
+
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color: #2196F3;
+ }
+
+ .contact-nav .link:hover, 
+ .contact-nav .link:focus{
+    color: #2196F3;
+ }
+
+ .contact-nav .link{
+    color: #757575;
+ }
+
+ .section-title {
+    color: #212121;
+ }
+
+ .hero-title {
+    color: #FFFFFF;
+ }
+
+ .feature-list .title {
+    color: #212121;
+ }
+
+ button {
+  color:  #FFFFFF;
+  background-color: #2196F3;
+  width: 152px;
+  height: 30px;
+  left: 724px;
+  top: 440px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+
+button:hover, 
+button:focus{ 
+    color: black
+
+}
