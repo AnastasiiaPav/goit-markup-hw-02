@@ -2,6 +2,7 @@ ul {
     list-style: none;
 }
 
+
 body{
     background: #F5F5F5;
     color: #757575;
@@ -35,11 +36,13 @@ body{
 
  .site-nav .link{
     color: #212121;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
+   
  }
 
  .site-nav .link:hover,
@@ -59,6 +62,9 @@ body{
  .contact-nav .link{
     color: #757575;
  }
+ 
+
+
 
  .second-title{
    font-weight: 500;
@@ -76,6 +82,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
  }
+
 
  .hero-title {
     color: #FFFFFF;
@@ -102,20 +109,23 @@ body{
 
  }
 
- button {
-  color:  #FFFFFF;
-  background-color: #2196F3;
-  font-family: inherit;
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
 
-}
+ button {
+   color:  #FFFFFF;
+   background-color: #2196F3;
+   font-family: inherit;
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.8;
+   cursor: pointer;
+ 
+ }
+ 
 
 button:hover, 
 button:focus{ 
-    color: black
+    color: black;
 
 }
 
@@ -123,6 +133,12 @@ button:focus{
    background: #F5F4FA;
    border-radius: 4px;
    color: #212121;
+}
+
+.button-secondary:hover,
+.button-secondary:focus{
+   color: #FFFFFF;
+   background-color: #2196F3;
 }
 
 
