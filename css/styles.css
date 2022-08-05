@@ -141,4 +141,30 @@ button:focus{
    background-color: #2196F3;
 }
 
+footer{
+   background-color: #2F303A;
+}
 
+.logo-write{
+   
+   color: #fff;
+    font-family: Raleway, cursive;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+
+.location{
+      color: #fff;
+   }
+
+ .addres .link{
+      color: #757575;
+   }
+
+ .addres .link:hover, 
+ .addres .link:focus{
+      color: #2196F3;
+   }
