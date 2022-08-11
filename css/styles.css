@@ -23,7 +23,7 @@ ul {
 
 body{
    font-family:Roboto, sans-serif; 
-   font-weight: 500;
+   font-weight: 400;
     background: var(--second-background);
     color:  var(--primary-text-color)
    }
@@ -73,6 +73,10 @@ body{
  }
 
  .contact-nav .link{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
    color:var(--primary-text-color);
    text-decoration: none;
 }
@@ -85,12 +89,7 @@ body{
 
 /* наполнение */
 
-.title{
-   font-size: 14px;
-   line-height: 1.7;
-   letter-spacing: 0.03em;
-   color: var(--primary-text-color);
-}
+
 
 .hero-title {
    color: var(--main-background);
@@ -98,6 +97,8 @@ body{
    font-size: 44px;
    line-height: 1.3;
    text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 
 .section-title {
@@ -115,12 +116,14 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .feature-list .text{
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
+   line-height: 24px;
    color: var(--primary-text-color);
  }
 
@@ -152,7 +155,7 @@ button:focus{
 
 }
  /* страница портфолио */
- 
+
 .button-secondary{
    font-family: inherit;
    background: var(--second-background);
