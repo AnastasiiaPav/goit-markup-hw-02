@@ -169,6 +169,11 @@ footer{
       color: #fff;
    }
 
+   .location:hover,
+   .location:focus{
+      color: #2196F3;
+   }
+
  .addres .link{
       color: #757575;
    }
