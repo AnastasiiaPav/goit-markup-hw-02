@@ -1,3 +1,5 @@
+
+
 ul {
     list-style: none;
 }
@@ -114,7 +116,6 @@ body{
    color:  #FFFFFF;
    background-color: #2196F3;
    font-family: inherit;
-   font-family: 'Roboto';
    font-weight: 700;
    font-size: 16px;
    line-height: 1.8;
@@ -139,6 +140,14 @@ button:focus{
 .button-secondary:focus{
    color: #FFFFFF;
    background-color: #2196F3;
+}
+
+.name-project{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
 }
 
 footer{
