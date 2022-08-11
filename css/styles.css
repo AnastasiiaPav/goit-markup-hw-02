@@ -1,3 +1,14 @@
+/* вторичный цвет текста #212121*/ 
+/* основной цвет текста #757575*/
+/*белый FFFFFF*/
+/*акцент 2196F3*/
+/* главный цвет фона #FFFFFF */
+/* вторничный цвет фона #F5F4FA */
+
+:root{
+
+}
+
 
 
 ul {
@@ -14,7 +25,7 @@ body{
     letter-spacing: 0.03em;
     
 }
- 
+ /* логотип */
 .logo{
     color: #000000;
     font-family: Raleway, cursive;
@@ -22,6 +33,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 
 }
 
@@ -32,9 +44,11 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
     
 
 }
+/* навигация хедера*/
 
  .site-nav .link{
     color: #212121;
@@ -63,10 +77,11 @@ body{
 
  .contact-nav .link{
     color: #757575;
+    text-decoration: none;
  }
  
 
-
+/* наполнение */
 
  .second-title{
    font-weight: 500;
@@ -111,7 +126,7 @@ body{
 
  }
 
-
+/* кнопка */
  button {
    color:  #FFFFFF;
    background-color: #2196F3;
@@ -123,7 +138,7 @@ body{
  
  }
  
-
+ 
 button:hover, 
 button:focus{ 
     color: black;
@@ -141,7 +156,7 @@ button:focus{
    color: #FFFFFF;
    background-color: #2196F3;
 }
-
+/* страница портфолио */
 .name-project{
 font-weight: 700;
 font-size: 18px;
@@ -149,7 +164,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
-
+/* футер */
 footer{
    background-color: #2F303A;
 }
@@ -162,11 +177,13 @@ footer{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 
 }
 
 .location{
       color: #fff;
+      text-decoration: none;
    }
 
    .location:hover,
@@ -176,6 +193,7 @@ footer{
 
  .addres .link{
       color: #757575;
+      text-decoration: none;
    }
 
  .addres .link:hover, 
