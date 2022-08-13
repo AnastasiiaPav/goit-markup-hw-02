@@ -158,9 +158,13 @@ button:focus{
 
 .button-secondary{
    font-family: inherit;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   letter-spacing: 0.03em;
    background: var(--second-background);
    border-radius: 4px;
-   color: var(--title-text-color)
+   color: var(--title-text-color);
 }
 
 .button-secondary:hover,
@@ -177,9 +181,11 @@ button:focus{
 }
 
 .works{
-  font-weight: 700;
+   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
   letter-spacing: 0.06em;
 }
 
@@ -214,9 +220,11 @@ footer{
    }
 
  .addres .link{
-      font-style: normal;
-      color: var(--footer-color);
-      text-decoration: none;
+   font-style: normal;
+   color: var(--footer-color);
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 2;
    }
 
  .addres .link:hover, 
